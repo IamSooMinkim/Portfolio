@@ -20,3 +20,5 @@ screenColor = "red"
 windowHeight = 1000
 email = "user@korea.com"
 fontsize = 16
+
+print("git study")
