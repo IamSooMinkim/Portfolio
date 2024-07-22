@@ -1,52 +1,53 @@
-# list1 = [3,15,-12.5,'사과','딸기',True, False]
-# print(list1)
-# list2=list(range(1,21,2))
-# print(list2)
+list1 = [3,15,-12.5,'사과','딸기',True, False]
+print(list1)
+list2=list(range(1,21,2))
+print(list2)
 
-# print(list1[4])
-# for i in range(7) :
-#     print (list1[i],end=" ")
-# print()
-# print('-'*50)
-# print(list2[-1: :2])
+print(list1[4])
+for i in range(7) :
+    print (list1[i],end=" ")
+print()
+print('-'*50)
+print(list2[-1: :2])
 
-# #응용문제 100 110 120 ... 200 리스트를 만들어 보기
-# list3=list(range(100,201,10))
-# print(list3)
+#응용문제 100 110 120 ... 200 리스트를 만들어 보기
+list3=list(range(100,201,10))
+print(list3)
 
-# cnt=0
-# for i in list3:
-#     cnt=cnt+1
-# print("리스트의 갯수는 %d" %cnt)
+cnt=0
+for i in list3:
+    cnt=cnt+1
+print("리스트의 갯수는 %d" %cnt)
 
-# print(len(list3))
+print(len(list3))
 
-# sum=0
-# for i in list3:
-#     sum=sum+i
-# print("리스트의 합계는 %d" %sum)
+sum=0
+for i in list3:
+    sum=sum+i
+print("리스트의 합계는 %d" %sum)
 
 #185p
-# colors=["빨간색", "파란색", "노란색", "검정색", "초록색"]
-# for color in colors :
-#     print("나는 %s을 좋아한다" %color)
+colors=["빨간색", "파란색", "노란색", "검정색", "초록색"]
+for color in colors :
+    print("나는 %s을 좋아한다" %color)
 
-# n=len(colors)
-# for i in range(0,n) :
-#     print("나는 %s을 좋아한다" %colors[i])
+n=len(colors)
+for i in range(0,n) :
+    print("나는 %s을 좋아한다" %colors[i])
 
-# print('-'*50)
+print('-'*50)
 
-# animal = ['코', '호', '사', '펭', '여']
-# i=0
-# while i<len(animal) :
-#     print(animal[len(animal)-1-i])
-#     i=i+1
+animal = ['코', '호', '사', '펭', '여']
+i=0
+while i<len(animal) :
+    print(animal[len(animal)-1-i])
+    i=i+1
 
 # 성적 프로그램 작성하기
 list1=['홍길동', 100, 80]
 list2=['이순신', 90, 75]
 list3=['최경미', 75, 100]
+list4=['박경수', 85, 90]
 
 print("이름  국어점수  수학점수  합계  평균")
 print(list1[0], list1[1], list1[2], list1[1]+list1[2], (list1[1]+list1[2])/2)
