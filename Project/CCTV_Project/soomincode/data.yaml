@@ -1,0 +1,6 @@
+train: D:/ai3/study/deeplearning_project/data/train/images  # 학습 이미지 경로
+val: D:/ai3/study/deeplearning_project/data/val/images      # 검증 이미지 경로
+
+nc: 1  # 클래스 수 (예: 1개의 클래스)
+names:
+  - person  # 클래스 이름 (사람)
