@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You can do Memo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="floating-icons-container"></div>
+    <div class="container">
+        <h1>You can do Memo</h1>
+        <textarea id="memo-input" placeholder="Write your memo story ♥"></textarea>
+        <button id="add-memo">Add memo</button>
+        <ul id="memo-list"></ul>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            for (let i = 0; i < 20; i++) {
+                let icon = document.createElement("div");
+                icon.classList.add("floating-icon");
+                icon.innerHTML = "🍀";
+                icon.style.left = Math.random() * 100 + "vw";
+                icon.style.animationDuration = Math.random() * 3 + 5 + "s";
+                document.body.appendChild(icon);
+            }
+        });
+    </script>
+</body>
+</html>
